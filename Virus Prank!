@@ -1,0 +1,45 @@
+//Visual Studio 2015
+//This code was made just for kidding or to make a prank! I'm not responsible if something went wrong! Execute with your own risk!
+//Esse código foi feito com o intuito de fazer uma brincadeira! Eu não sou responsável se alguma coisa de errado ocorer, execute pela sua própria conta e risco!
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Trava_Tuto
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int ue = 1920;
+            int da = 1080;
+            int cont;
+            Console.WriteLine("Bem-Vindo!");
+            Console.WriteLine("Aperte qualquer tecla, para iniciar!");
+            Console.ReadKey();
+            Console.WriteLine("Pronto para hackear seu sistema!");
+            Console.ForegroundColor = ConsoleColor.DarkYellow;
+            Console.WriteLine("Se tentar fechar, vai ser pior!");
+            System.Diagnostics.Process.Start(@"C:\Users\CLIENTE\Documents\Visual Studio 2015\Projects\Calculadora Cientifica\B.exe");
+
+            for (cont = 0; cont <= 100; cont++) {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine("Hackeando sistema" + cont+"%");
+                //Just use the line below, for freeze the system! You need change the location of your .exe archive with your overcharging code!
+                //Use a linha abaixo, para congelar o sistema! Você precisa mudar o diretório do seu arquivo .exe com seu executável de sobrecarga!
+                //System.Diagnostics.Process.Start(@"C:\Users\CLIENTE\Documents\Visual Studio 2015\Projects\Calculadora Cientifica\B.exe");
+                Console.Beep();
+            }
+
+            Console.ForegroundColor = ConsoleColor.DarkRed;
+            Console.WriteLine("Arquivos Sequestrados com sucesso =D");
+            //Just use the line below, for a shutdown! You need to change the location of your .bat archive with your shutdown code (with you don't know what is, search...)
+            //Use a linha abaixo, para executar um Shutdown! Você precisa mudar a localização do arquivo .bat com o código de shutdown (se você não compeende, procure no google)
+            //System.Diagnostics.Process.Start(@"C:\Users\CLIENTE\Documents\Visual Studio 2015\Projects\Calculadora Cientifica\A.bat");     
+            Console.ReadKey();
+        }
+    }
+}
