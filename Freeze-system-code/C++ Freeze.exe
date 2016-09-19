@@ -1,0 +1,17 @@
+//Below, you can see the freeze exe what i create for a demonstration!
+//If you run it one time, it will not make your computer freeze, but throught a loop code, you can run it 100 of times in 1 second!
+//That code was made on C++ 
+//This code was made just for a study purpose, for understand how we can overload a system!! I'm not responsible if something went wrong! Execute with your own risk!
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<math.h>
+main()
+{
+int cont;
+for(cont=44;cont<=74;cont+2)
+{
+printf(" Created by Sargastico - %d",cont);
+}
+getch();
+}
