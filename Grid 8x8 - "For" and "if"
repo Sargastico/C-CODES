@@ -1,0 +1,47 @@
+/*
+This code is a quick way to understand how we can use the "for" and "if" statements for create a grid!
+ASS: Sargastico
+Contact: fernandocaro54@hotmail.com
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int a;
+            int cellbit = 5;
+            Console.WriteLine("Exercise of EDX Csharp Course!");
+            Console.WriteLine("8 x 8 grid");
+            Console.WriteLine("Press any key!");
+            Console.ReadKey();
+            Console.Beep();
+            for(a = 0; a <= 8; a++)
+            {
+                if(cellbit == 1)
+                {
+                    Console.WriteLine("XOXOXOXO");
+                    cellbit = 2;
+                }
+                else if(cellbit == 2)
+                {
+                    Console.WriteLine("OXOXOXOX");
+                    cellbit = 1;
+                }
+                else
+                {
+                    cellbit = 1;
+                }
+            }
+            Console.ReadKey();
+                     
+        }
+    }
+}
