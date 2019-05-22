@@ -1,5 +1,4 @@
 # CASUAL CODES
 
-Hmmmm, casual codes?
+Beep Boop Beep! Hmmmm, casual codes?
 
-//ASS:Sargastico, contact: fernandocaro54@hotmail.com
