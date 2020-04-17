@@ -1,4 +1,5 @@
 //Cifra de Hill
+//Não usar C++ foi um erro catastrófico.
 
 #include <stdio.h>
 #include <stdlib.h>
