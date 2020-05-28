@@ -1,3 +1,11 @@
+//Elasticsearch client example using golang.
+
+//Default config: elasticsearch server service running on localhosta:9200 <-> elastic:changeme
+
+//Create a JSON file and name as 'query.json'. Inside the file, paste de query to performe the search 
+//									  |
+//									  |__ You can forge a query using Kibana!!! 
+
 package main
 
 import (
@@ -11,10 +19,6 @@ import (
 
 	"github.com/elastic/go-elasticsearch"
 )
-
-type ZeebeEvent struct {
-	_id	interface{}
-}
 
 func main() {
 
@@ -71,10 +75,6 @@ func main() {
 			}
 			bodyString := string(bodyBytes)
 			fmt.Println(bodyString)
-
-
-			zeebeparser := ZeebeEvent{}
-			json.Unmarshal([]byte(bodyString), &zeebeparser)
 
 			defer res.Body.Close()
 		}
